@@ -28,7 +28,7 @@ h1 {
 .description {
   flex-basis: 70%;
 }
-@media (max-width: 1200px) {
+@media (max-width: 400px) {
   .container {
     flex-direction: column;
   }
