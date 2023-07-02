@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+}
+.box{
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.6em;
+}
+.shrink-fieldset{
+    width: 330px;
+    height: 300px;
+}
