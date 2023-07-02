@@ -1,22 +1,23 @@
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
+}
+#veneto {
+  margin-top: 60px;
+  width: 420px;
 }
 .container {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 20px;
-    padding: 20px;
-    font-size: larger;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  padding: 20px;
+  font-size: larger;
 }
-.box{
-    margin: 20px;
-    padding: 20px;
-    line-height: 1.6em;
+.box {
+  margin: 20px;
+  padding: 20px;
+  line-height: 1.6em;
 }
-.shrink-fieldset{
-    width: 330px;
-    height: 300px;
-}
-#veneto{
-    margin-top: 60px;
+.shrink-fieldset {
+  width: 330px;
+  height: 300px;
 }
