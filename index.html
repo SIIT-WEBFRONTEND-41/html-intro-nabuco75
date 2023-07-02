@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veneto</title>
+    <link rel="stylesheet" href="veneto.css" />
+  </head>
+
+  <body>
+    <h1>VENETO</h1>
+    <div class="container">
+      <div class="image-container">
+        <img src="images/veneto.jpg" alt="Veneto-region" id="veneto" />
+      </div>
+      <div class="description">
+        <p>
+          Veneto is the best part of Italy. If you like ancient history you can visit the coloseum from Verona. Do you have passion for
+          middle Age history, then you have plenty of choices. Feeling out of inspiration, need a muse? Go to Arqa Petrarca and meet the
+          muse Laura! There you will visit the place where Petrarca spent his last years. Not a fun of poetry? Try to understand the
+          inovation that Giotto brought to religious painting. Motion and emotions take place of byzantine technique. Visit Scrovegni
+          Chappel! Maybe you like architecture? Then go and visit Saint Antonio'Cathedral from Padua. Maybe you want to see the perfect
+          roman empire legacy in building a piazza? Well, go and visit Montagnana, one of the most beautiful walled cities in Italy. Piazza
+          Majore is the perfect example of roman urbanism. Large space with acces to fountain, to church and a focal point. Fun of nature?
+          How about a visit to Lake Garda? Need enterteinment? Well, why don't you spend a day in Gardaland? Are you a romantic type? Venice
+          is calling to you! Why wait? Come to the best part of Italy!
+        </p>
+        <p>Places to visit:</p>
+        <ul>
+          <li>Venice</li>
+          <li>Padua</li>
+          <li>Arqua Petrarca</li>
+          <li>Montagnana</li>
+          <li>Verona</li>
+          <li>Gardaland</li>
+          <li>Villa Pisani</li>
+          <li>Villa Barbarigo</li>
+        </ul>
+
+        <p>
+          <a href="https://www.tripadvisor.com/Attractions-g187866-Activities-Veneto.html">Would you like no know more?</a>
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="box" class="survey1">
+        <h2>Survey Form</h2>
+        <fieldset class="shrink-fieldset">
+          <legend>Personal Information</legend>
+          <form action="/submit-survey" method="POST">
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" placeholder="Enter name" /><br />
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" placeholder="Enter your e-mail" /><br />
+            <label for="age">Age:</label><br />
+            <input type="number" id="age" name="age" value="30" required /><br />
+            <label for="gender">Gender:</label><br />
+            <select id="gender" name="gender" required>
+              <option value="">Select</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+            <div></div>
+            <label for="feedback">Feedback:</label>
+            <div></div>
+            <textarea name="message" rows="5" cols="40" placeholder="Enter your message" maxlength="200" required></textarea>
+            <input type="reset" name="reset" value="Reset" />
+            <input type="submit" name="submit" value="Submit" />
+            <div></div>
+            <label for="newsletter">Subscribe to Newsletter:</label>
+            <input type="checkbox" id="newsletter" name="newsletter" />
+          </form>
+        </fieldset>
+      </div>
+      <div class="box" class="survey2">
+        <h2>Survey Form2</h2>
+        <form action="/submit-survey2" method="POST">
+          <fieldset class="shrink-fieldset">
+            <legend>Area of interests</legend>
+            <input type="radio" id="poetry" name="interests" value="poetry" />
+            <label for="poetry">Poetry</label>
+            <div></div>
+            <input type="radio" id="painting" name="interests" value="painting" />
+            <label for="painting">Painting</label>
+            <div></div>
+            <input type="radio" id="architecture" name="interests" value="architecture" />
+            <label for="achitecture">Architecture</label>
+            <div></div>
+            <input type="radio" id="travel" name="interests" value="travel" />
+            <label for="travel">Travel</label>
+            <div></div>
+            <input type="radio" id="gastronomy" name="interests" value="gastronomy" />
+            <label for="travel">Gastronomy</label>
+            <div></div>
+            <input type="submit" name="submit" value="Submit" />
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
